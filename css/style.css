@@ -3650,26 +3650,8 @@ h6 {
 .service-area .single-service:hover {
   background: rgba(9, 73, 137, 1);
 }
-/* .service-area .single-service .service-icon {
-  width: 170px;
-  height: 95px;
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  z-index: 1;
-  line-height: 112px;
-} */
-.service-area .single-service .service-icon:after {
-  content: "";
-  position: absolute;
-  height: 80px;
-  width: 80px;
-  background: #fcefed;
-  border-radius: 100%;
-  left: 0;
-  z-index: -1;
-  top: 0;
-}
+
+
 .service-area .single-service .service-icon img {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -3680,7 +3662,7 @@ h6 {
 }
 
 .service-area .single-service .service-content h5 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #1d1d1d;
   margin-bottom: 18px;
@@ -3845,12 +3827,6 @@ h6 {
   font-size: 14px;
   margin-bottom: 35px;
 }
-.about-area .col-lg-6:nth-child(1) .single-about .about-icon:after {
-  background: #fca6a6;
-}
-.about-area .col-lg-6:nth-child(2) .single-about .about-icon:after {
-  background: #71beb4;
-}
 
 .area-heading {
   text-align: left;
@@ -3972,12 +3948,6 @@ h6 {
   font-size: 14px;
   margin-bottom: 35px;
   color: #fff;
-}
-.feature-area .col-:nth-child(1) .single-feature .feature-icon:after {
-  background: #fca6a6;
-}
-.feature-area .col-:nth-child(2) .single-feature .feature-icon:after {
-  background: #71beb4;
 }
 
 .area-heading.light h4 {
