@@ -3481,16 +3481,38 @@ h6 {
   height: 325px;
   padding: 50px 10px;
 }
+
+.box:hover{
+  background-color: #094989;
+}
+
+.box:hover .title{
+  color: rgba(253, 179, 28, 1);
+}
+
+.box:hover .text-price{
+  color: #ffffff;
+}
+.box:hover .text-time{
+  color: #ffffff;
+}
+
+.box:hover .btn-hiring{
+  color: #ffffff;
+  background: rgba(253, 179, 28, 1);
+}
+
+
+
 .text-sumary {
   font-weight: 500;
   font-size: 16px;
   line-height: 34px;
   text-align: center;
-
-  /* Grey */
-
   color: #292b33;
 }
+
+
 .title {
   font-family: "Bebas Neue", sans-serif;
   font-style: normal;
@@ -3628,13 +3650,26 @@ h6 {
 
 .box-service {
   text-align: center;
-  background: white;
   background: #ffffff;
   box-shadow: 0px 5px 40px rgba(30, 73, 132, 0.1);
   border-radius: 25px;
   height: 325px;
   padding: 30px 10px;
 }
+
+.box-service:hover {
+  background: rgba(9, 73, 137, 1);;
+}
+
+.box-service:hover h4 {
+  color: #fdb31c;
+}
+
+.box-service:hover p {
+  color: #ffffff;
+}
+
+
 
 .service-area .single-service {
   border: 1px solid #edf1f6;
