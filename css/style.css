@@ -1,43 +1,4 @@
-/**
- * /*----------------------------------------------------
- * Author E-mail: rockybd1995@gmail.com
- * 
- * This file contains the styling for the actual theme, this
- * is the file you need to edit to change the look of the
- * theme.
- * ----------------------------------------------------
- *
- * @format
- * @File: Default Styles
- * @Author: Rocky Ahmed
- * @URL: http://wethemez.com
- */
 
-/*=====================================================================
-@Template Name: Builder Construction 
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ project 
-09/ price 
-10/ blog  
-11/ service  
-12/ contact 
-13/ footer
-
-=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -398,6 +359,7 @@ ul {
   top: 80px;
 }
 
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Home Banner Area css
@@ -556,11 +518,9 @@ ul {
 /* End Home Banner Area css
 ============================================================================================ */
 
-
-
 /*AL Platform*/
-.al-flatform{
-  color:rgba(41, 43, 51, 1);
+.al-flatform {
+  color: rgba(41, 43, 51, 1);
   font-size: 12px;
 }
 
@@ -3598,6 +3558,10 @@ h6 {
   margin-top: 20px;
 }
 
+.margin-b-50 {
+  margin-bottom: 50px;
+}
+
 .pricing_area {
   position: relative;
   z-index: 1;
@@ -3620,97 +3584,41 @@ h6 {
 .pricing_area .area-heading h4 {
   margin-bottom: 20px;
 }
-.pricing_area .col-lg-3:nth-child(1) .single-pricing .pricing-icon:after {
-  background: #fca6a6;
-}
-.pricing_area .col-lg-3:nth-child(2) .single-pricing .pricing-icon:after {
-  background: #71beb4;
-}
-.pricing_area .col-lg-3:nth-child(3) .single-pricing .pricing-icon:after {
-  background: #ed92dd;
-}
-.pricing_area .col-lg-3:nth-child(4) .single-pricing .pricing-icon:after {
-  background: #97d0ee;
-}
 
 .single-pricing {
-  text-align: left;
+  text-align: center;
   padding: 40px 0 45px;
   background: #fff;
-  border: 1px solid #edf1f6;
   padding: 40px 30px;
-  transition: all 300ms linear 0s;
 }
 .single-pricing .pricing-icon {
   width: 150px;
-  height: 95px;
-  text-align: center;
+  height: 150px;
   margin-bottom: 20px;
-  position: relative;
-  z-index: 1;
-  line-height: 112px;
+  background: #ababad;
+  border-radius: 50%;
+  padding: 50%;
 }
-.single-pricing .pricing-icon:after {
-  content: "";
-  position: absolute;
-  height: 70px;
-  width: 70px;
-  background: #fcefed;
-  border-radius: 100%;
-  left: 0;
-  z-index: -1;
-  top: 0;
-}
-.single-pricing .pricing-icon i {
-  font-size: 40px;
-  color: #050817;
-}
+
 .single-pricing .single-pricing-content h5 {
-  font-size: 24px;
-  font-weight: 600;
-  color: #1d1d1d;
+  font-size: 18px;
+  font-weight: 500;
+  color: #094989;
   margin-bottom: 18px;
-  border-bottom: 1px solid #edf1f6;
   padding-bottom: 12px;
 }
 .single-pricing .single-pricing-content h4 {
   font-size: 24px;
   font-weight: 600;
-  color: #1d1d1d;
-  margin-bottom: 46px;
-}
-.single-pricing .single-pricing-content h4 span {
-  color: #7f7f7f;
-  font-size: 15px;
-  font-weight: 400;
-}
-.single-pricing .single-pricing-content h4 .currency_line {
-  font-size: 24px;
-  color: #7f7f7f;
-  font-weight: 300;
-}
-.single-pricing .single-pricing-content ul {
-  border-bottom: 1px solid #edf1f6;
-  padding-bottom: 15px;
-  margin-bottom: 20px;
-}
-.single-pricing .single-pricing-content ul li {
-  font-size: 14px;
-  color: #7f7f7f;
-  margin-bottom: 11px;
-}
-.single-pricing .single-pricing-content a {
-  font-size: 14px;
-  color: #1d1d1d;
-  border-bottom: 2px solid #edf1f6;
-  font-weight: 600;
-  padding-bottom: 5px;
-}
-.single-pricing .single-pricing-content a:hover {
-  border-bottom: 2px solid #fd1c4a;
-  transition: all 300ms linear 0s;
+  color: #094989;
 }
 
+.single-pricing .single-pricing-content span {
+  font-size: 13px;
+  color: #1d1d1d;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
 /* End pricing Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -3732,13 +3640,17 @@ h6 {
   border: 1px solid #edf1f6;
   background: #fff;
   text-align: left;
-  padding: 40px 30px 45px;
-  background-image: url(../img/elements/single_bg.png);
+  border: rgb(199, 198, 198) 2 solid;
+  border-radius: 25px;
   background-position: right top;
   background-repeat: no-repeat;
   transition: all 300ms linear 0s;
 }
-.service-area .single-service .service-icon {
+
+.service-area .single-service:hover {
+  background: rgba(9, 73, 137, 1);
+}
+/* .service-area .single-service .service-icon {
   width: 170px;
   height: 95px;
   text-align: center;
@@ -3746,7 +3658,7 @@ h6 {
   position: relative;
   z-index: 1;
   line-height: 112px;
-}
+} */
 .service-area .single-service .service-icon:after {
   content: "";
   position: absolute;
@@ -3758,29 +3670,42 @@ h6 {
   z-index: -1;
   top: 0;
 }
-.service-area .single-service .service-icon i {
-  font-size: 40px;
-  color: #050817;
+.service-area .single-service .service-icon img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
+
+.service-content {
+  margin: 15px 20px;
+}
+
 .service-area .single-service .service-content h5 {
   font-size: 20px;
   font-weight: 600;
   color: #1d1d1d;
   margin-bottom: 18px;
 }
-.service-area .single-service .service-content p {
-  line-height: 27px;
-  font-size: 14px;
-  margin-bottom: 35px;
+
+.service-area .single-service:hover .service-content h5 {
+  color: #fdb31c;
 }
+
+.service-area .single-service:hover .service-content p {
+  color: #fff;
+}
+
 .service-area .single-service .service-content a {
   font-size: 14px;
   color: #1d1d1d;
   position: relative;
   font-weight: 500;
 }
+
+.service-area .single-service:hover  .service-content a {
+    color: #fdb31c;
+}
+
 .service-area .single-service .service-content a:after {
-  content: "";
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -3788,25 +3713,7 @@ h6 {
   width: 90px;
   background: #edf1f6;
 }
-.service-area .single-service .service-content a:hover:after {
-  background: #f84b67;
-  transition: all 300ms linear 0s;
-}
 
-.col-lg-4:nth-child(1) .single-service .service-icon:after {
-  background: #fca6a6;
-}
-
-.col-lg-4:nth-child(2) .single-service {
-  margin-top: 50px;
-}
-.col-lg-4:nth-child(2) .single-service .service-icon:after {
-  background: #71beb4;
-}
-
-.col-lg-4:nth-child(3) .single-service .service-icon:after {
-  background: #ed92dd;
-}
 
 .service-page.service-area {
   background: #fff;
@@ -3822,13 +3729,12 @@ h6 {
 }
 .area-heading h3 {
   font-size: 30px;
-  color: rgba(41, 43, 51, 1)
-;
+  color: rgba(41, 43, 51, 1);
   position: relative;
 }
 .area-heading p {
   font-size: 14px;
-  color:rgba(41, 43, 51, 1);
+  color: rgba(41, 43, 51, 1);
 }
 .area-heading .line:after {
   content: "";
@@ -3875,8 +3781,6 @@ h6 {
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-
-
 
 /* About Area css
 ============================================================================================ */
@@ -3985,7 +3889,7 @@ h6 {
   margin-top: 50px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color:rgba(41, 43, 51, 1);;
+  color: rgba(41, 43, 51, 1);
   margin-bottom: 40px;
   line-height: 27px;
   padding-right: 65px;
