@@ -195,7 +195,6 @@
 		text-align: center;
 		margin-bottom: 30px;
 		border-radius: 50%;
-		background: gray;
 	}
 	/* Contact Page Area css
 	============================================================================================ */
@@ -260,10 +259,26 @@
 
 @media (max-width:767px){
 
+	.btn-login{
+		margin-left: 32%;
+	}
+
+	.contact-box {
+		display: block;
+		height: 80%;
+	}
+
+	.row .icon svg {
+		display: none;
+	}
+
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 80px;
 	}
 
+	.plan-line:before {
+		display: none;
+	}
 
 	.home_banner_area {
 		min-height: 500px;
