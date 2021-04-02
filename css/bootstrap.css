@@ -2051,16 +2051,7 @@ select.form-control[size] {
 }
 
 textarea.form-control {
-  height: auto;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-.form-text {
-  display: block;
-  margin-top: 0.25rem;
+  height: 100px;
 }
 
 .form-row {

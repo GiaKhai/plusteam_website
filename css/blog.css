@@ -1,0 +1,80 @@
+/** @format */
+
+.box {
+  background: #ffffff;
+  /* Shadow */
+
+  box-shadow: 0px 5px 40px rgba(30, 73, 132, 0.1);
+  border-radius: 25px;
+  height: auto;
+}
+.btn-lastest {
+  background: #fdb31c;
+  opacity: 0.15;
+  border-radius: 25px;
+  padding: 10px;
+}
+.text-yellow {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 29px;
+  background: #f6e3ce;
+  color: #fdb31c;
+
+  padding: 10px;
+  border-radius: 25px;
+}
+.lastest-title {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37px;
+  line-height: 55px;
+
+  /* PlusTeamBlue */
+
+  color: #094989;
+}
+.img-lastest {
+  max-width: 100%;
+  border-radius: 25px;
+}
+.img {
+  max-width: 50%;
+}
+.btn-readmore {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  background: #fdb31c;
+  border-radius: 31px;
+  padding: 10px;
+}
+.btn-sub {
+  overflow: hidden;
+  margin-left: -37px;
+}
+.email-control {
+  border: 2px solid #fdb31c;
+  box-sizing: border-box;
+  border-radius: 31px;
+  max-width: 40%;
+  height: 40px;
+  padding: 10px 30px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}

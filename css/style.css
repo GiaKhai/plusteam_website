@@ -1,5 +1,9 @@
+/**
+ * /*----------------------------------------------------
+ *
+ * @format
+ */
 
-/*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
@@ -103,6 +107,30 @@ ul {
   line-height: 24px;
   color: #7f7f7f;
   margin-bottom: 0px;
+}
+
+.process-box {
+  padding: 20px;
+}
+
+.process-box h4 {
+  color: #094989;
+
+  font-size: 19px;
+}
+
+.process-box img {
+  width: 80px;
+}
+
+.plan-line:before {
+  content: "";
+  background: #094989;
+  border: 1.5px solid #094989;
+  position: absolute;
+  width: 55%;
+  left: 73%;
+  top: 60px;
 }
 
 /* End Main Title Area css
@@ -359,6 +387,33 @@ ul {
   top: 80px;
 }
 
+.imagebox {
+  background: gray;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 66px;
+}
+
+.row .icon svg {
+  margin: 80px 0;
+  cursor: pointer;
+}
+
+.row svg {
+  margin-right: 10px;
+}
+
+.infor h5 {
+  margin: 20px 0;
+  color: #094989;
+  font-weight: 600;
+  font-size: 25px;
+}
+.infor .single-infor {
+  margin: 10px 0;
+  display: flex;
+}
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -369,6 +424,16 @@ ul {
   width: 225px;
   height: 55px;
   font-size: 17px;
+}
+
+@media (max-width: 575px) {
+  .btn-banner {
+    width: 175px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 77px;
+  }
 }
 
 .home_banner_area {
@@ -586,7 +651,6 @@ ul {
   color: #f84b67;
   text-align: left;
   display: inline-block;
-  float: left;
   font-size: 13px;
   font-weight: 300;
   margin-right: 22px;
@@ -1616,13 +1680,12 @@ ul {
   color: #f84b67;
   font-size: 14px;
 }
-.form-contact .form-group {
-  margin-bottom: 30px;
+.form-group {
+  margin-bottom: 10px;
 }
 .form-contact .form-control {
-  border: 1px solid #f0e9ff;
+  border: 2px solid #094989;
   border-radius: 5px;
-  height: 48px;
   padding-left: 18px;
   font-size: 13px;
   background: transparent;
@@ -1637,7 +1700,7 @@ ul {
 }
 .form-contact textarea {
   border-radius: 12px;
-  height: 100% !important;
+  height: 100px;
 }
 
 /*=================== contact form end ====================*/
@@ -1827,7 +1890,6 @@ ul {
 }
 
 .info {
-  background: #38a4ff;
 }
 .info:before {
   background: #298cdf;
@@ -3448,6 +3510,11 @@ h6 {
   .single-testimonial {
     margin: 15px;
   }
+  .area-heading h4 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+  }
 }
 .single-testimonial .designation {
   font-style: italic;
@@ -3472,6 +3539,12 @@ h6 {
   font-size: 17px;
 }
 
+.btn-send {
+  width: 140px;
+  height: 45px;
+  font-size: 17px;
+}
+
 .box {
   text-align: center;
   background: white;
@@ -3482,27 +3555,25 @@ h6 {
   padding: 50px 10px;
 }
 
-.box:hover{
+.box:hover {
   background-color: #094989;
 }
 
-.box:hover .title{
+.box:hover .title {
   color: rgba(253, 179, 28, 1);
 }
 
-.box:hover .text-price{
+.box:hover .text-price {
   color: #ffffff;
 }
-.box:hover .text-time{
+.box:hover .text-time {
   color: #ffffff;
 }
 
-.box:hover .btn-hiring{
+.box:hover .btn-hiring {
   color: #ffffff;
   background: rgba(253, 179, 28, 1);
 }
-
-
 
 .text-sumary {
   font-weight: 500;
@@ -3511,7 +3582,6 @@ h6 {
   text-align: center;
   color: #292b33;
 }
-
 
 .title {
   font-family: "Bebas Neue", sans-serif;
@@ -3658,7 +3728,7 @@ h6 {
 }
 
 .box-service:hover {
-  background: rgba(9, 73, 137, 1);;
+  background: rgba(9, 73, 137, 1);
 }
 
 .box-service:hover h4 {
@@ -3669,9 +3739,8 @@ h6 {
   color: #ffffff;
 }
 
-
-
 .service-area .single-service {
+  box-shadow: 0px 5px 40px rgb(30 73 132 / 10%);
   border: 1px solid #edf1f6;
   background: #fff;
   text-align: left;
@@ -3685,7 +3754,6 @@ h6 {
 .service-area .single-service:hover {
   background: rgba(9, 73, 137, 1);
 }
-
 
 .service-area .single-service .service-icon img {
   border-top-left-radius: 25px;
@@ -3718,8 +3786,8 @@ h6 {
   font-weight: 500;
 }
 
-.service-area .single-service:hover  .service-content a {
-    color: #fdb31c;
+.service-area .single-service:hover .service-content a {
+  color: #fdb31c;
 }
 
 .service-area .single-service .service-content a:after {
@@ -3730,7 +3798,6 @@ h6 {
   width: 90px;
   background: #edf1f6;
 }
-
 
 .service-page.service-area {
   background: #fff;
@@ -3866,6 +3933,24 @@ h6 {
 .area-heading {
   text-align: left;
 }
+
+.area-heading h6 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+  color: #094989;
+}
+
+.area-heading h5 {
+  text-align: left;
+  font-size: 27px;
+  font-weight: 600;
+  color: #094989;
+}
+
+.padding-b-50 {
+  padding-bottom: 50px;
+}
 @media (min-width: 1199px) and (max-width: 1199px) {
   .area-heading {
     padding-top: 30px;
@@ -3897,13 +3982,11 @@ h6 {
 }
 .area-heading p {
   font-weight: 400;
-  margin-top: 50px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   color: rgba(41, 43, 51, 1);
   margin-bottom: 40px;
   line-height: 27px;
-  padding-right: 65px;
 }
 .area-heading .main_btn:hover {
   border: 1px solid #f84b67;
@@ -4014,6 +4097,16 @@ h6 {
 
 /* End Brands  Area css
 ============================================================================================ */
+
+.contact-box {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0px 5px 40px rgb(30 73 132 / 10%);
+  border-radius: 25px;
+  padding: 30px 10px;
+  display: flex;
+}
+
 /* Features  Area css
 ============================================================================================ */
 .faq_area .card {
@@ -4133,11 +4226,11 @@ h6 {
   color: #fdb31c;
 }
 .footer-area .single-footer-widget input {
-  height: 40px;
-  border: 1px solid #eeeeee;
+  height: 35px;
+  border: 1px solid #FDB31C;
   width: 67% !important;
   font-weight: 300;
-  background: #fff;
+  background: transparent;
   padding-left: 20px;
   border-radius: 0;
   font-size: 14px;
@@ -4168,14 +4261,14 @@ h6 {
 .footer-area .single-footer-widget input::-webkit-input-placeholder {
   font-size: 14px;
   padding-left: 10px;
-  color: #888888;
+  color: #ecebeb;
 }
 .footer-area .single-footer-widget .click-btn {
   border-radius: 24px;
   padding: 6px 21px 4px 14px;
-  border: 0;
-  background: #f84b67;
-  color: #fff;
+  border-color: #FDB31C;
+  background: #094989;
+  color: #FDB31C;
   position: relative;
   left: 0;
   text-transform: capitalize;
@@ -4206,7 +4299,7 @@ h6 {
   }
 }
 .footer-area .footer-bottom p {
-  color: #777777;
+  color: #c2c0c0;
 }
 .footer-area .footer-bottom p a {
   color: #f84b67;

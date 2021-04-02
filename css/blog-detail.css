@@ -1,0 +1,73 @@
+.title{
+margin: 0px 5px;
+    display: inline-block;
+    font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 20px;
+
+
+color: #292B33;
+}
+.img{
+border-radius: 25px;
+
+}
+.img-title{
+    width: 100%;
+        border-radius: 25px;
+}
+.text-blue{
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 78px;
+/* identical to box height */
+
+text-align: center;
+
+/* PlusTeamBlue */
+
+color: #094989;
+text-transform: uppercase;
+}
+.blog-box{
+background: #FFFFFF;
+/* Shadow */
+
+box-shadow: 0px 5px 40px rgba(30, 73, 132, 0.1);
+border-radius: 25px;
+}
+.active-blog{
+    background: #094989;
+border-radius: 0px 0px 25px 25px;
+}
+.blog-title-active{
+    color: #FDB31C;
+    font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 29px;
+}
+.read-btn-active{
+    color: #FDB31C;
+      font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 26px;
+}
+.text-muted-active{
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 23px;
+
+/* White */
+
+color: #FFFFFF;
+}
