@@ -10,11 +10,14 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-
 .list {
   list-style: none;
   margin: 0px;
   padding: 0px;
+}
+
+.margin-t-30 {
+    margin-top: 30px;
 }
 
 a {
@@ -224,6 +227,68 @@ ul {
   opacity: 0;
   transition: all 400ms linear;
 }
+.read-btn {
+  font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+
+/* PlusTeam Yellow */
+
+color: #FDB31C; 
+}
+.btn-readmore {
+ font-weight: 700;
+    border-radius: 31px;
+  line-height: 29px;
+min-height: 40px;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+    color: white;
+    background-color: #fdb31c;
+  padding: 10px;
+}
+.text-center{
+  text-align: center;
+}
+.email-control {
+  width: 60%;
+  margin: auto;
+  
+}
+.btn-sub{
+    border-radius: 24px;
+    padding: 6px 21px 4px 14px;
+        background-color: #fdb31c;
+border-color: #fdb31c;
+line-height: 28px;
+    color: white;
+     font-weight: 700;
+
+ 
+    text-transform: capitalize;
+    z-index: 999;
+}
+.email-box{
+    border: 1px solid #fdb31c;
+    width: 67% !important;
+    font-weight: 300;
+    background: transparent;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px 22px;
+    border-radius: 25px;
+    color: #888888;
+    margin-right: -25px;
+}
+
 .header_area .navbar .nav .nav-item.submenu ul .nav-item {
   display: block;
   float: none;
@@ -239,6 +304,46 @@ ul {
   transition: all 150ms linear;
   display: block;
   margin-right: 0px;
+}
+.blog-box {
+  background: #ffffff;
+  /* Shadow */
+  box-shadow: 0px 5px 40px rgba(30, 73, 132, 0.1);
+  border-radius: 25px;
+  height: auto;
+}
+.btn-lastest {
+  background: #fdb31c;
+  opacity: 0.15;
+  border-radius: 25px;
+  padding: 10px;
+}
+.text-yellow {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 29px;
+  background: #f6e3ce;
+  color: #fdb31c;
+
+  padding: 10px;
+  border-radius: 25px;
+}
+.lastest-title {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37px;
+  line-height: 55px;
+
+  /* PlusTeamBlue */
+
+  color: #094989;
+}
+.img-lastest {
+  max-width: 100%;
+  border-radius: 25px;
 }
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
   border-bottom: none;
@@ -321,7 +426,22 @@ ul {
   border-radius: 3px;
   font-weight: 500;
 }
+.blog-title{
+  margin: 0px 5px;
+    display: inline-block;
+    font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 20px;
 
+
+color: #292B33;
+}
+.img-title{
+    width: 100%;
+        border-radius: 25px;
+}
 #search_input_box {
   position: fixed;
   left: 50%;
@@ -393,7 +513,7 @@ ul {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  margin-left: 100px;
+  margin-left: 66px;
 }
 
 .row .icon svg {
