@@ -67,6 +67,10 @@
 		margin-bottom: 30px;
 	}
 
+	.box-service {
+		height: 370px;
+	}
+
 	/* End service Area css
 	============================================================================================ */
 	
@@ -79,6 +83,11 @@
 @media (max-width:991px){
 	/* Main Menu Area css
 	============================================================================================ */
+
+	.plan-line:before {
+		display: none;
+	}
+	
 	.navbar-toggler {
 		border: none;
 		border-radius: 0px;
@@ -276,9 +285,7 @@
 		margin-top: 80px;
 	}
 
-	.plan-line:before {
-		display: none;
-	}
+	
 
 	.home_banner_area {
 		min-height: 500px;
