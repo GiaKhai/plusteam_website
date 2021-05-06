@@ -2086,7 +2086,15 @@ textarea.form-control {
 }
 
 .form-check-label {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 0;
+}
+
+.form-check-label p {
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .form-check-inline {
@@ -6303,15 +6311,13 @@ button.close {
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
   background: transparent no-repeat center center;
   background-size: 100% 100%;
 }
 
 .carousel-control-prev-icon {
   background-image: url("https://www.flaticon.com/svg/vstatic/svg/130/130882.svg?token=exp=1619167995~hmac=1216db941902ce8b020fc3ac68894a1c");
-  margin-right: 70px;
+  margin-right: 100px;
   margin-bottom: 40px;
   width: 50px;
   height: 50px;
